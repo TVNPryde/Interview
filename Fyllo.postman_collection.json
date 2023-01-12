@@ -27,7 +27,7 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "TrIsHnTrOy",
+							"value": "Fyllo",
 							"type": "string"
 						},
 						{
@@ -62,6 +62,41 @@
 				}
 			},
 			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "Fyllo",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "Thanh",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }

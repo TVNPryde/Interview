@@ -16,4 +16,5 @@ Use Postman Runner to hit the endpoint multiple times.
 
 ### Additional
 
-I will try to add a basic authentication through Spring Security.
+I've added a basic authentication through Spring Security 6.0.1.
+The username is `Thanh` and  password is `Fyllo`.
